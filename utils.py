@@ -14,7 +14,7 @@ def init_chroma_client(path):
 def query_chroma(collection, user_query):
     results = collection.query(
         query_texts=[user_query],
-        n_results=10,  # Retrieve more documents to improve chances of relevance
+        n_results=10,
     )
     return results
 
@@ -25,7 +25,7 @@ def construct_prompt(retrieved_data, user_query):
 
 Guidelines for answering:
 1. Use the retrieved data provided below to construct your response:
-   {retrieved_data}
+   {str(retrieved_data)}
 2. Do not rely on your internal knowledge or make assumptions.
 3. If the retrieved data does not contain enough information, respond with: "I could not find sufficient information in the knowledge base to answer your question."
 4. Provide clear, concise, and professional responses.
