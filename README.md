@@ -1,11 +1,6 @@
-当然可以，下面是更自然、更清晰排版的 `README.md` Markdown 源码，你只需要复制粘贴保存为 `README.md` 文件即可 👇：
-
-```markdown
 # 🧠 Networking RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot designed to help users troubleshoot network-related issues using OpenAI's API. Built with Flask and a simple web interface.
-
----
 
 ## ✨ Features
 
@@ -15,7 +10,6 @@ A Retrieval-Augmented Generation (RAG) chatbot designed to help users troublesho
 - 🧠 Conversational memory for multi-turn chats
 - 💻 Lightweight, Flask-based frontend
 
----
 
 ## 📁 Project Structure
 
@@ -31,7 +25,6 @@ RAG_TEST/
 ├── data/            # Input docs (e.g., PDFs)
 ```
 
----
 
 ## 🚀 Getting Started
 
@@ -76,11 +69,9 @@ python app.py
 
 Then open your browser at [http://localhost:5000](http://localhost:5000)
 
----
 
 ## 📌 Notes
 
 - If you're using PDF/text files as sources, place them in the `data/` folder.
 - The vector store (`chroma_db/`) is generated after running `fill_db.py`.
 
----
