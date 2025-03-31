@@ -6,6 +6,7 @@ import chromadb
 
 DATA_PATH = r"data"
 CHROMA_PATH = r"chroma_db"
+COLLECTION_NAME = "networkperformance"
 
 chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
 
@@ -52,3 +53,5 @@ collection.upsert(
     metadatas=metadata,
     ids=ids
 )
+print(f"Upserted {len(documents)} documents into collection '{
+      COLLECTION_NAME}'.")
