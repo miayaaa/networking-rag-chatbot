@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Environment variables
+.env
+
+# ChromaDB (if it's large or machine-specific)
+chroma_db/
