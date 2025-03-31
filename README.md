@@ -4,11 +4,11 @@ A Retrieval-Augmented Generation (RAG) chatbot designed to help users troublesho
 
 ## ✨ Features
 
-- 🔍 Context-aware responses via RAG pipeline
-- 🤖 Natural language generation using OpenAI API
-- 🧩 Prompt engineering for better answer accuracy
-- 🧠 Conversational memory for multi-turn chats
-- 💻 Lightweight, Flask-based frontend
+-  Context-aware responses via RAG pipeline
+-  Natural language generation using OpenAI API
+-  Prompt engineering for better answer accuracy
+-  Conversational memory for multi-turn chats
+-  Lightweight, Flask-based frontend
 
 
 ## 📁 Project Structure
