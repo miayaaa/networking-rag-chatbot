@@ -75,3 +75,21 @@ Then open your browser at [http://localhost:5000](http://localhost:5000)
 - If you're using PDF/text files as sources, place them in the `data/` folder.
 - The vector store (`chroma_db/`) is generated after running `fill_db.py`.
 
+## Example Questions
+
+Easy Question:
+
+What is a CNX score?
+
+What is the customer feedback for the customer in Auckland CBD?
+
+What's the call detail record for the Auckland customer?
+
+Harder questions:
+
+Which region has the highest bandwidth usage? 
+
+How can customer experience be improved based on this report?
+
+What are the actionable insights to optimize network performance?
+
